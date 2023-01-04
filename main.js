@@ -13,14 +13,15 @@ const displayDate = () => {
   document.getElementById("display-element").innerHTML = currentDate;
 }
  
-string stringToNum;
+let num;
+let str;
 
 // Write a JavaScript program to convert a number to a string.
 const numToString = num.toString();
 
 
 // Write a JavaScript program to convert a string to the number.
-const stringToNum = parseInt(stringNum);
+const stringToNum = str.parseInt();
 
 
 // Write a JavaScript program that takes in different datatypes and prints out whether they are a:
@@ -32,16 +33,28 @@ const stringToNum = parseInt(stringNum);
   // * String
   
 
+
 let num1;
 let num2;
 
 
 // Write a JavaScript program that adds 2 numbers together.
-const addTwoNums = num1 + num2;
+const addTwoNums = (num1, num2) => 
+{
+  return num1 + num2;
+}
 
 
 // Write a JavaScript program that runs only when 2 things are true.
-
+const twoTruths = (truth1, truth2) =>
+{
+  if(truth1 && truth2){
+    console.log('Yes, its true');
+  }
+  else{
+    console.log('Not true');
+  }
+}
 
 
 // Write a JavaScript program that runs when 1 of 2 things are true.
