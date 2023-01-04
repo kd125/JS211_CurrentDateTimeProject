@@ -31,7 +31,12 @@ const stringToNum = str.parseInt();
   // * Number
   // * NaN
   // * String
-  
+const bool = true;
+const nul = null;
+const undef = "";
+const numero = 4;
+
+
 
 
 let num1;
@@ -58,7 +63,15 @@ const twoTruths = (truth1, truth2) =>
 
 
 // Write a JavaScript program that runs when 1 of 2 things are true.
-
+const oneTruth = (true1, true2) =>
+{
+  if(true1 || true2){
+    console.log('Yes, one is true');
+  }
+  else{
+    console.log('Neither are true');
+  }
+}
 
 
 // Write a JavaScript program that runs when both things are not true.  
