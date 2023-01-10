@@ -51,7 +51,6 @@ const typesOfData = (typeInput) => {
 // Write a JavaScript program that adds 2 numbers together.
 const addTwoNums = (num1, num2) => 
 {
-  
   return num1 + num2;
 }
 
